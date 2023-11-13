@@ -5,10 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "AIRDOS04A base board")
+    (title "USTSIPIN03A")
     (date "2023-10-23")
     (company "Jakub Kákona <info@ust.cz>")
-    (comment 2 "Airborne semiconductor\\nionizing radiation detector")
+    (comment 2 "Semiconductor\\nionizing radiation detector")
   )
 
   (lib_symbols
@@ -1715,7 +1715,7 @@
     )
     (pin "1" (uuid 9cb1a728-adcb-46d3-b842-c81b05518a2e))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#FLG03") (unit 1)
         )
@@ -1750,7 +1750,7 @@
     (pin "3" (uuid 00b5b12b-18eb-4e81-bb25-5f6144087699))
     (pin "4" (uuid 3dfeaec0-d778-476f-9b93-afc99d9bb3bd))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U1") (unit 1)
         )
@@ -1778,7 +1778,7 @@
     )
     (pin "1" (uuid 95544687-c630-4203-a5d3-87d866c81bb6))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR05") (unit 1)
         )
@@ -1810,7 +1810,7 @@
     (pin "1" (uuid a17d00e7-aa75-4c86-a3c1-212dbefb50de))
     (pin "2" (uuid affa20c3-cc4c-4834-a55a-5b2fddbedc96))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C3") (unit 1)
         )
@@ -1838,7 +1838,7 @@
     )
     (pin "1" (uuid 8031d0f8-98a1-4580-9fc8-ff9debc962c2))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR09") (unit 1)
         )
@@ -1866,7 +1866,7 @@
     )
     (pin "1" (uuid 23e5709f-9152-430c-a3d2-f09944861818))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#FLG04") (unit 1)
         )
@@ -1894,7 +1894,7 @@
     )
     (pin "1" (uuid 7345fe5f-7167-4b83-a49d-0a8cc269acb3))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR04") (unit 1)
         )
@@ -1936,7 +1936,7 @@
           (reference "TP4") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
           (reference "TP1") (unit 1)
         )
@@ -1970,7 +1970,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C23") (unit 1)
         )
@@ -1998,7 +1998,7 @@
     )
     (pin "1" (uuid 2d39a8c8-c2b4-485f-9e83-6b5297700873))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR038") (unit 1)
         )
@@ -2026,7 +2026,7 @@
     )
     (pin "1" (uuid 224518c2-6213-429a-adfd-e79bb851a873))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR038") (unit 1)
         )
@@ -2054,7 +2054,7 @@
     )
     (pin "1" (uuid ae2619db-f136-4de2-a330-d9930517178e))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#FLG05") (unit 1)
         )
@@ -2091,7 +2091,7 @@
           (reference "R11") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R7") (unit 1)
         )
@@ -2119,7 +2119,7 @@
     )
     (pin "1" (uuid fb1084dd-d229-4c16-b807-cadb7e353e2c))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR028") (unit 1)
         )
@@ -2157,7 +2157,7 @@
     (pin "7" (uuid 5f1c71a7-68f5-4c96-9509-3b511d43aa29))
     (pin "8" (uuid 299365b7-608c-408a-9244-73ba188ee15b))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
           (reference "U5") (unit 1)
         )
@@ -2191,7 +2191,7 @@
     (pin "8" (uuid fb2fac78-c6da-4bc2-8355-0432cd791077))
     (pin "9" (uuid 8932c040-b927-42e4-8eab-2dcf97977aac))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U3") (unit 1)
         )
@@ -2223,7 +2223,7 @@
     (pin "1" (uuid f1b6d3f7-a872-4a04-9a7a-1e795702397b))
     (pin "2" (uuid fe4d59a8-2026-49a9-8bc8-ae6faaa7a2a1))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C13") (unit 1)
         )
@@ -2255,7 +2255,7 @@
     (pin "1" (uuid 4c9a2a86-f8cf-4a26-b472-9440a9fe9f8b))
     (pin "2" (uuid deea2e82-a829-4a43-b14e-3523c0bd7ea0))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R3") (unit 1)
         )
@@ -2292,7 +2292,7 @@
           (reference "R11") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R7") (unit 1)
         )
@@ -2326,7 +2326,7 @@
     )
     (pin "1" (uuid 6b75d0fa-3fea-4667-a30e-b83f15dd1d94))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "M5") (unit 1)
         )
@@ -2369,7 +2369,7 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e191f86f-5b54-4b8b-aca6-37b81226f3b6"
           (reference "U10") (unit 1)
         )
@@ -2397,7 +2397,7 @@
     )
     (pin "1" (uuid 3992ddd6-28ca-4120-a6c0-87d2feb2032f))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR013") (unit 1)
         )
@@ -2429,7 +2429,7 @@
     (pin "1" (uuid e451b8f7-3cdc-41e1-8cf5-88461fe924b7))
     (pin "2" (uuid 1b2fbdef-97be-487e-b62c-9651996e70d1))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C19") (unit 1)
         )
@@ -2461,7 +2461,7 @@
     (pin "1" (uuid bae56ffe-3987-4d49-af79-5008108e3a49))
     (pin "2" (uuid c1ce87ff-bdad-40bb-8641-ab138bb7eace))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C6") (unit 1)
         )
@@ -2489,7 +2489,7 @@
     )
     (pin "1" (uuid a333dfba-fc7a-4fe8-ba6c-bf3f0d4dbb82))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR012") (unit 1)
         )
@@ -2521,7 +2521,7 @@
     (pin "1" (uuid 343c03d6-e69d-4c3a-a411-535d4401f69b))
     (pin "2" (uuid 7f2a8027-7a17-448f-b120-a74be024d7ba))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C7") (unit 1)
         )
@@ -2549,7 +2549,7 @@
     )
     (pin "1" (uuid 61413fda-2850-4b92-aea3-068ca638c9dc))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR027") (unit 1)
         )
@@ -2583,7 +2583,7 @@
           (reference "JP4") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "JP1") (unit 1)
         )
@@ -2621,7 +2621,7 @@
           (reference "#PWR028") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e191f86f-5b54-4b8b-aca6-37b81226f3b6"
           (reference "#PWR049") (unit 1)
         )
@@ -2649,7 +2649,7 @@
     )
     (pin "1" (uuid 66f80862-22a7-4d62-aaef-ba9b785547e4))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#FLG07") (unit 1)
         )
@@ -2681,7 +2681,7 @@
     (pin "1" (uuid 26cb3a02-4c3b-41f2-9ae0-7270f186fa6d))
     (pin "2" (uuid 087060d4-f502-4e8f-a763-20c3891fb1b5))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R9") (unit 1)
         )
@@ -2719,7 +2719,7 @@
           (reference "#PWR028") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e191f86f-5b54-4b8b-aca6-37b81226f3b6"
           (reference "#PWR049") (unit 1)
         )
@@ -2747,7 +2747,7 @@
     )
     (pin "1" (uuid 7512eee6-1ab6-47d5-b6dc-f7f62b8a263c))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR021") (unit 1)
         )
@@ -2779,7 +2779,7 @@
     (pin "1" (uuid a8e2cc5f-8bc5-4253-8536-4a08e9395f63))
     (pin "2" (uuid 468266e1-0398-415d-b2a8-e7d2edd6843b))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R1") (unit 1)
         )
@@ -2807,7 +2807,7 @@
     )
     (pin "1" (uuid 9521bfa4-77c8-45f4-9588-9958477b1657))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#FLG08") (unit 1)
         )
@@ -2835,7 +2835,7 @@
     )
     (pin "1" (uuid f5cf734c-5338-479e-ba03-39955f9bd8b6))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR042") (unit 1)
         )
@@ -2863,7 +2863,7 @@
     )
     (pin "1" (uuid fae1d724-0fa8-4f8d-8d02-f1a02b34e60c))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR04") (unit 1)
         )
@@ -2891,7 +2891,7 @@
     )
     (pin "1" (uuid fedd4a17-f741-4be0-9782-e33568f57390))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR08") (unit 1)
         )
@@ -2928,7 +2928,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C24") (unit 1)
         )
@@ -2965,7 +2965,7 @@
           (reference "C17") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C9") (unit 1)
         )
@@ -2993,7 +2993,7 @@
     )
     (pin "1" (uuid e153be3d-6312-4889-bf9a-18d4b9519584))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR043") (unit 1)
         )
@@ -3025,7 +3025,7 @@
     (pin "1" (uuid d4220286-8230-44ea-8dc6-3451b7c184fe))
     (pin "2" (uuid adf314a6-256f-47b7-9768-da940d984292))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C3") (unit 1)
         )
@@ -3060,7 +3060,7 @@
     (pin "3" (uuid 63dc046e-6962-4447-9ac1-5d3da5923cba))
     (pin "4" (uuid 754a3e02-e5f0-48db-9e5f-cf04d692bf7a))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U6") (unit 1)
         )
@@ -3088,7 +3088,7 @@
     )
     (pin "1" (uuid 50e52224-b4c3-4d4f-8d75-6adc87585404))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR039") (unit 1)
         )
@@ -3120,7 +3120,7 @@
     (pin "1" (uuid 02ea6f45-e0ef-4eb1-b270-40d3308dea4e))
     (pin "2" (uuid 839f207f-400d-470d-bf76-f60747bc7b9f))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C13") (unit 1)
         )
@@ -3153,7 +3153,7 @@
           (reference "#PWR013") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e191f86f-5b54-4b8b-aca6-37b81226f3b6"
           (reference "#PWR083") (unit 1)
         )
@@ -3181,7 +3181,7 @@
     )
     (pin "1" (uuid 445f1bc3-3ece-4736-a18c-f3bc0abcd302))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33"
           (reference "#PWR025") (unit 1)
         )
@@ -3209,7 +3209,7 @@
     )
     (pin "1" (uuid 939a61bb-4cc1-4c1e-aa2e-0b3b98c60428))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR012") (unit 1)
         )
@@ -3237,7 +3237,7 @@
     )
     (pin "1" (uuid 9c1c98a7-583b-45e0-a7a1-a1dd03b536d8))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR034") (unit 1)
         )
@@ -3270,7 +3270,7 @@
           (reference "#PWR024") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e191f86f-5b54-4b8b-aca6-37b81226f3b6"
           (reference "#PWR082") (unit 1)
         )
@@ -3298,7 +3298,7 @@
     )
     (pin "1" (uuid ac1446d4-1d7f-48c6-b375-fe0fe3399d2d))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -3340,7 +3340,7 @@
           (reference "TP4") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
           (reference "TP2") (unit 1)
         )
@@ -3369,7 +3369,7 @@
     (pin "1" (uuid 85cd94d5-2654-4875-a28b-631cd1e80e20))
     (pin "2" (uuid 708245d0-c9ab-480e-8440-14bcc84d5901))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C12") (unit 1)
         )
@@ -3411,7 +3411,7 @@
           (reference "C18") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C18") (unit 1)
         )
@@ -3443,7 +3443,7 @@
     (pin "1" (uuid c58fa9ea-f8d6-4eaa-8563-2abdfcd2340b))
     (pin "2" (uuid c10aa046-961c-4549-aff0-84c83f4518f5))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C11") (unit 1)
         )
@@ -3475,7 +3475,7 @@
     (pin "1" (uuid 7ce65489-25d0-4f0c-9cf4-5b4c26339415))
     (pin "2" (uuid 19bbecae-d467-4d4c-b653-6b5e71ab8bda))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C15") (unit 1)
         )
@@ -3517,7 +3517,7 @@
           (reference "C18") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e191f86f-5b54-4b8b-aca6-37b81226f3b6"
           (reference "C49") (unit 1)
         )
@@ -3545,7 +3545,7 @@
     )
     (pin "1" (uuid 2fd03264-9e08-499a-b9ba-10c5487362a2))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR023") (unit 1)
         )
@@ -3573,7 +3573,7 @@
     )
     (pin "1" (uuid 953c8ddb-1d19-425b-afe5-34023d1315d1))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR041") (unit 1)
         )
@@ -3605,7 +3605,7 @@
     (pin "1" (uuid 21d49be3-40b1-4c40-bb33-37f16788fdf1))
     (pin "2" (uuid d6d34488-e655-420f-92b2-8058d607502e))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C19") (unit 1)
         )
@@ -3642,7 +3642,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C25") (unit 1)
         )
@@ -3670,7 +3670,7 @@
     )
     (pin "1" (uuid 8e0b5a14-eb84-4810-ace3-5a979f0207b3))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR04") (unit 1)
         )
@@ -3698,7 +3698,7 @@
     )
     (pin "1" (uuid 4683ffbe-9ef6-4cdf-b447-f951da9a50c4))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR035") (unit 1)
         )
@@ -3740,7 +3740,7 @@
           (reference "TP4") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
           (reference "TP3") (unit 1)
         )
@@ -3774,7 +3774,7 @@
           (reference "R10") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R8") (unit 1)
         )
@@ -3802,7 +3802,7 @@
     )
     (pin "1" (uuid 18ac3268-4f6b-46ae-ab03-2114afff2b8c))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR029") (unit 1)
         )
@@ -3839,7 +3839,7 @@
           (reference "C18") (unit 1)
         )
       )
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C8") (unit 1)
         )
@@ -3871,7 +3871,7 @@
     (pin "1" (uuid 1f94864e-b0e4-4bbc-95dd-91051a204fd8))
     (pin "2" (uuid 08a7412f-426b-43ad-b87f-e9d68b999998))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R4") (unit 1)
         )
@@ -3906,7 +3906,7 @@
     (pin "3" (uuid 3e3d6f68-372b-4685-aad4-a219b3c1920b))
     (pin "4" (uuid 6104711a-5432-4906-919c-79b56d2c1f8d))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U2") (unit 1)
         )
@@ -3934,7 +3934,7 @@
     )
     (pin "1" (uuid db011d64-89b1-44d6-852e-c93da08b351f))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR037") (unit 1)
         )
@@ -3962,7 +3962,7 @@
     )
     (pin "1" (uuid 6ebd0266-698c-4d5b-b1c1-f2c64a45a762))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR020") (unit 1)
         )
@@ -3994,7 +3994,7 @@
     (pin "1" (uuid f447dbd4-c5fc-4bee-aea2-e047e4f29615))
     (pin "2" (uuid 91584336-8a58-4dc7-bfb4-47baebf9a645))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C20") (unit 1)
         )
@@ -4022,7 +4022,7 @@
     )
     (pin "1" (uuid 8577dba0-ae51-475b-b8aa-2d1174d63071))
     (instances
-      (project "AIRDOS04_sensor"
+      (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR022") (unit 1)
         )
