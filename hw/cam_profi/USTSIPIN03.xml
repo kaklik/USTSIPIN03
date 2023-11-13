@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Mon Nov 13 00:13:34 2023</date>
+    <date>Mon Nov 13 00:49:58 2023</date>
     <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -82,8 +82,10 @@
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USTSIPIN03.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="Fiducial Marker"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <sheetpath names="/" tstamps="/"/>
@@ -93,8 +95,10 @@
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USTSIPIN03.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="Fiducial Marker"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <sheetpath names="/" tstamps="/"/>
@@ -104,8 +108,10 @@
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USTSIPIN03.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="Fiducial Marker"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <sheetpath names="/" tstamps="/"/>
@@ -115,8 +121,10 @@
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USTSIPIN03.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="Fiducial Marker"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <sheetpath names="/" tstamps="/"/>
@@ -271,10 +279,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -331,10 +339,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -421,10 +429,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">6508260b462c6d9e720541f1</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="6508260b462c6d9e720541f1"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -716,10 +724,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="PIN_detector"/>
       <property name="Sheetfile" value="PIN_detector.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -976,10 +984,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="PIN_detector"/>
       <property name="Sheetfile" value="PIN_detector.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
