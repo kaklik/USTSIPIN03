@@ -2,17 +2,17 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Sun Nov 12 23:39:01 2023</date>
+    <date>Mon Nov 13 00:13:34 2023</date>
     <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>AIRDOS04A base board</title>
+        <title>USTSIPIN03A</title>
         <company>Jakub Kákona &lt;info@ust.cz&gt;</company>
         <rev/>
-        <date>2023-10-23</date>
+        <date>2023-11-13</date>
         <source>USTSIPIN03.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="Airborne semiconductor\nionizing radiation detector"/>
+        <comment number="2" value="Semiconductor\nionizing radiation detector"/>
         <comment number="3" value=""/>
         <comment number="4" value="GPL 3"/>
         <comment number="5" value=""/>
@@ -24,13 +24,13 @@
     </sheet>
     <sheet number="2" name="/analogue_backend/" tstamps="/5c006114-f78d-4936-a365-c4e7307459e1/">
       <title_block>
-        <title>AIRDOS04A base board</title>
+        <title>USTSIPIN03A</title>
         <company>Jakub Kákona &lt;info@ust.cz&gt;</company>
         <rev/>
         <date>2023-10-23</date>
         <source>analogue_backend.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="Airborne semiconductor\nionizing radiation detector"/>
+        <comment number="2" value="Semiconductor\nionizing radiation detector"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -42,13 +42,13 @@
     </sheet>
     <sheet number="3" name="/PIN_detector/" tstamps="/e191f86f-5b54-4b8b-aca6-37b81226f3b6/">
       <title_block>
-        <title>AIRDOS04A base board</title>
+        <title>USTSIPIN03A</title>
         <company>Jakub Kákona &lt;info@ust.cz&gt;</company>
         <rev/>
         <date>2023-10-23</date>
         <source>PIN_detector.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="Airborne semiconductor\nionizing radiation detector"/>
+        <comment number="2" value="Semiconductor\nionizing radiation detector"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -60,13 +60,13 @@
     </sheet>
     <sheet number="4" name="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/">
       <title_block>
-        <title>AIRDOS04A base board</title>
+        <title>USTSIPIN03A</title>
         <company>Jakub Kákona &lt;info@ust.cz&gt;</company>
         <rev/>
         <date>2023-10-23</date>
         <source>interface.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="Airborne semiconductor\nionizing radiation detector"/>
+        <comment number="2" value="Semiconductor\nionizing radiation detector"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
