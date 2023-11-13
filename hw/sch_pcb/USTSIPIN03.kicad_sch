@@ -277,7 +277,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 264.16 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f2adbb7-5f97-4a39-b161-72c425f5a17c)
     (property "Reference" "FID2" (at 266.319 41.9679 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -289,6 +289,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 264.16 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "UST_ID" "" (at 264.16 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -309,7 +312,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 251.46 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ef0c33d-aa75-4799-ba66-ba16fac2c793)
     (property "Reference" "FID1" (at 253.619 41.9679 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -321,6 +324,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 251.46 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "UST_ID" "" (at 251.46 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -425,7 +431,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 251.46 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2c2b1aa-d8ea-46ec-9175-db46f7998416)
     (property "Reference" "FID1" (at 253.619 35.6179 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -437,6 +443,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 251.46 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "UST_ID" "" (at 251.46 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -452,7 +461,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 264.16 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6c184f9-2b0d-461c-a561-7afee4f0ebb4)
     (property "Reference" "FID2" (at 266.319 35.6179 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -464,6 +473,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 264.16 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "UST_ID" "" (at 264.16 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
