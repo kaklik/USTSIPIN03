@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Mon Nov 13 00:49:58 2023</date>
+    <date>Thu Nov 16 00:16:06 2023</date>
     <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -396,13 +396,13 @@
       <tstamps>e4d477a2-c4a9-4ba0-b425-c64885f3623d</tstamps>
     </comp>
     <comp ref="C16">
-      <value>1nF NP0</value>
+      <value>1nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5d47bf10128750448e6b4652</field>
+        <field name="UST_ID">5c70984812875079b91f8ba6</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5d47bf10128750448e6b4652"/>
+      <property name="UST_ID" value="5c70984812875079b91f8ba6"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -444,10 +444,10 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5d47bf10128750448e6b4652</field>
+        <field name="UST_ID">5c70984812875079b91f8ba6</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5d47bf10128750448e6b4652"/>
+      <property name="UST_ID" value="5c70984812875079b91f8ba6"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -532,8 +532,11 @@
     <comp ref="R4">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -544,8 +547,11 @@
     <comp ref="R5">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -638,8 +644,11 @@
       <value>ISL21080CIH341Z-TK</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://cz.mouser.com/datasheet/2/698/REN_isl21080_DST_20040119-1998038.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">6555591d0c8d609e3e79abc1</field>
+      </fields>
       <libsource lib="Reference_Voltage" part="ISL21070CIH320Z-TK" description="2.0V 25μA Micropower Voltage Reference, SOT-23"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="6555591d0c8d609e3e79abc1"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="2.0V 25μA Micropower Voltage Reference, SOT-23"/>
@@ -667,7 +676,11 @@
       <value>LTC1865-MS</value>
       <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">651eaece462c6d9e72055763</field>
+      </fields>
       <libsource lib="Analog_ADC" part="LTC1865-MS" description="Dual channel 16-bit SAR Analog to Digital Converter, 5V supply, 150ksps, SPI interface"/>
+      <property name="UST_ID" value="651eaece462c6d9e72055763"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="Dual channel 16-bit SAR Analog to Digital Converter, 5V supply, 150ksps, SPI interface"/>
@@ -695,8 +708,11 @@
       <value>SN74LVC2G74</value>
       <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc2g74-ep.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">65555d4795a79cc5ac409b41</field>
+      </fields>
       <libsource lib="74xGxx" part="74LVC2G74" description="74AUC1G74, Single D Flip-Flop, Low-Voltage CMOS"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="65555d4795a79cc5ac409b41"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="74AUC1G74, Single D Flip-Flop, Low-Voltage CMOS"/>
@@ -1179,8 +1195,11 @@
     <comp ref="R20">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value="PIN_detector"/>
       <property name="Sheetfile" value="PIN_detector.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1479,8 +1498,11 @@
     <comp ref="R29">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1491,8 +1513,11 @@
     <comp ref="R30">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1520,7 +1545,11 @@
       <value>SN74LVC2T45DCU</value>
       <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">65555a850c8d609e3e79abde</field>
+      </fields>
       <libsource lib="Logic_LevelTranslator" part="74LVC2T45DC" description="Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8"/>
+      <property name="UST_ID" value="65555a850c8d609e3e79abde"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
       <property name="ki_description" value="Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8"/>
@@ -1532,7 +1561,11 @@
       <value>SN74LVC2T45DCU</value>
       <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">65555a850c8d609e3e79abde</field>
+      </fields>
       <libsource lib="Logic_LevelTranslator" part="74LVC2T45DC" description="Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8"/>
+      <property name="UST_ID" value="65555a850c8d609e3e79abde"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
       <property name="ki_description" value="Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8"/>
@@ -1544,7 +1577,11 @@
       <value>SN74LVC2T45DCU</value>
       <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">65555a850c8d609e3e79abde</field>
+      </fields>
       <libsource lib="Logic_LevelTranslator" part="74LVC2T45DC" description="Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8"/>
+      <property name="UST_ID" value="65555a850c8d609e3e79abde"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
       <property name="ki_description" value="Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8"/>
