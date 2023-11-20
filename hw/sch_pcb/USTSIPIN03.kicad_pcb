@@ -362,7 +362,7 @@
     (tstamp 7c43e7d5-cf64-417b-918f-3ca19d8dd9fb)
     (at 121.285 100.457 90)
     (attr through_hole board_only)
-    (fp_text reference "G***" (at 0 0 90) (layer "F.SilkS") hide
+    (fp_text reference "G1" (at 0 0 90) (layer "F.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)))
       (tstamp 140e83ad-93ab-4df7-aafc-15ff6e932862)
     )
