@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Thu Nov 16 00:16:06 2023</date>
+    <date>Mon Nov 20 20:40:37 2023</date>
     <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1288,7 +1288,7 @@
     <comp ref="U10">
       <value>ISL21080DIH309</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf</datasheet>
+      <datasheet>https://www.renesas.com/us/en/document/dst/isl21080-datasheet</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b0b</field>
       </fields>
