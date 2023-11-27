@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Mon Nov 27 16:41:41 2023</date>
+    <date>Mon Nov 27 18:26:50 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1260,12 +1260,10 @@
       <fields>
         <field name="UST_ID">5c70984412875079b91f879a</field>
       </fields>
-      <libsource lib="Amplifier_Operational" part="MCP6001R" description="1MHz, Low-Power Op Amp, SOT-23-5"/>
+      <libsource lib="MLAB_IO" part="OPA314" description=""/>
       <property name="UST_ID" value="5c70984412875079b91f879a"/>
       <property name="Sheetname" value="PIN_detector"/>
       <property name="Sheetfile" value="PIN_detector.kicad_sch"/>
-      <property name="ki_description" value="1MHz, Low-Power Op Amp, SOT-23-5"/>
-      <property name="ki_keywords" value="single opamp"/>
       <sheetpath names="/PIN_detector/" tstamps="/e191f86f-5b54-4b8b-aca6-37b81226f3b6/"/>
       <tstamps>7f3f42bd-11fe-4e38-9822-a7d5dc6613c4</tstamps>
     </comp>
@@ -1614,26 +1612,6 @@
         <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Amplifier_Operational" part="MCP6001R">
-      <description>1MHz, Low-Power Op Amp, SOT-23-5</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MCP6001R</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="output"/>
-        <pin num="2" name="V+" type="power_in"/>
-        <pin num="3" name="+" type="input"/>
-        <pin num="4" name="-" type="input"/>
-        <pin num="5" name="V-" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="Analog_ADC" part="LTC1865-MS">
       <description>Dual channel 16-bit SAR Analog to Digital Converter, 5V supply, 150ksps, SPI interface</description>
       <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf</docs>
@@ -1909,6 +1887,23 @@
         <pin num="5" name="V+" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="MLAB_IO" part="OPA314">
+      <docs>https://www.ti.com/lit/ds/symlink/opa314.pdf</docs>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">OPA314</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/opa314.pdf</field>
+        <field name="UST_ID">5c70984412875079b91f879a</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="MLAB_MECHANICAL" part="HOLE">
       <fields>
         <field name="Reference">M</field>
@@ -2013,9 +2008,6 @@
   <libraries>
     <library logical="74xGxx">
       <uri>/usr/share/kicad/symbols//74xGxx.kicad_sym</uri>
-    </library>
-    <library logical="Amplifier_Operational">
-      <uri>/usr/share/kicad/symbols//Amplifier_Operational.kicad_sym</uri>
     </library>
     <library logical="Analog_ADC">
       <uri>/usr/share/kicad/symbols//Analog_ADC.kicad_sym</uri>
@@ -2302,7 +2294,7 @@
       <node ref="U3" pin="4" pinfunction="AGND" pintype="power_in"/>
       <node ref="U4" pin="2" pinfunction="V-" pintype="power_in"/>
       <node ref="U6" pin="2" pinfunction="V-" pintype="power_in"/>
-      <node ref="U8" pin="5" pinfunction="V-" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="V-" pintype="power_in"/>
       <node ref="U9" pin="2" pinfunction="V-" pintype="power_in"/>
     </net>
     <net code="34" name="Net-(C25-Pad1)">
@@ -2386,7 +2378,7 @@
       <node ref="C33" pin="1" pintype="passive"/>
       <node ref="C34" pin="1" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
-      <node ref="U8" pin="2" pinfunction="V+" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
     <net code="49" name="Net-(U9-+)">
       <node ref="C30" pin="1" pintype="passive"/>
