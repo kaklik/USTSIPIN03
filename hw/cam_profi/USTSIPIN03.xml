@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Mon Nov 27 18:26:50 2023</date>
+    <date>Mon Nov 27 19:15:39 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2120,11 +2120,11 @@
       <node ref="U3" pin="8" pinfunction="SCK" pintype="input"/>
     </net>
     <net code="12" name="/analogue_backend/SDI">
-      <node ref="U14" pin="6" pinfunction="2B" pintype="bidirectional"/>
+      <node ref="U12" pin="7" pinfunction="1B" pintype="bidirectional"/>
       <node ref="U3" pin="6" pinfunction="SDI" pintype="input"/>
     </net>
     <net code="13" name="/analogue_backend/SDO">
-      <node ref="U12" pin="7" pinfunction="1B" pintype="bidirectional"/>
+      <node ref="U14" pin="6" pinfunction="2B" pintype="bidirectional"/>
       <node ref="U3" pin="7" pinfunction="SDO" pintype="output"/>
     </net>
     <net code="14" name="/analogue_backend/Set">
@@ -2203,11 +2203,11 @@
     </net>
     <net code="28" name="/interface/SOCKET_MISO">
       <node ref="J1" pin="18" pintype="input"/>
-      <node ref="U12" pin="2" pinfunction="1A" pintype="bidirectional"/>
+      <node ref="U14" pin="3" pinfunction="2A" pintype="bidirectional"/>
     </net>
     <net code="29" name="/interface/SOCKET_MOSI">
       <node ref="J1" pin="16" pintype="input"/>
-      <node ref="U14" pin="3" pinfunction="2A" pintype="bidirectional"/>
+      <node ref="U12" pin="2" pinfunction="1A" pintype="bidirectional"/>
     </net>
     <net code="30" name="/interface/SOCKET_SCLK">
       <node ref="J1" pin="20" pintype="input"/>
