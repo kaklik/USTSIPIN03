@@ -2357,7 +2357,7 @@
     (property "Value" "AD8691" (at 199.39 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering" (at 198.12 113.03 0)
+    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5" (at 198.12 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8691_8692_8694.pdf" (at 198.12 107.95 0)
