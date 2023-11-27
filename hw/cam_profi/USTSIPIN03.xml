@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Mon Nov 20 20:40:37 2023</date>
-    <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
+    <date>Mon Nov 27 16:41:41 2023</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>USTSIPIN03A</title>
@@ -2172,28 +2172,28 @@
       <node ref="U14" pin="1" pinfunction="VCCA" pintype="power_in"/>
     </net>
     <net code="19" name="/interface/A0">
-      <node ref="J1" pin="10" pintype="input"/>
+      <node ref="J1" pin="9" pintype="input"/>
     </net>
     <net code="20" name="/interface/A1">
-      <node ref="J1" pin="12" pintype="input"/>
+      <node ref="J1" pin="11" pintype="input"/>
     </net>
     <net code="21" name="/interface/B0">
-      <node ref="J1" pin="16" pintype="input"/>
+      <node ref="J1" pin="15" pintype="input"/>
       <node ref="U14" pin="2" pinfunction="1A" pintype="bidirectional"/>
     </net>
     <net code="22" name="/interface/B1">
-      <node ref="J1" pin="14" pintype="input"/>
+      <node ref="J1" pin="13" pintype="input"/>
     </net>
     <net code="23" name="/interface/C0">
-      <node ref="J1" pin="20" pintype="input"/>
+      <node ref="J1" pin="19" pintype="input"/>
       <node ref="U13" pin="3" pinfunction="2A" pintype="bidirectional"/>
     </net>
     <net code="24" name="/interface/C1">
-      <node ref="J1" pin="18" pintype="input"/>
+      <node ref="J1" pin="17" pintype="input"/>
       <node ref="U13" pin="2" pinfunction="1A" pintype="bidirectional"/>
     </net>
     <net code="25" name="/interface/RX">
-      <node ref="J1" pin="11" pintype="input"/>
+      <node ref="J1" pin="12" pintype="input"/>
     </net>
     <net code="26" name="/interface/SCL">
       <node ref="J1" pin="23" pintype="input"/>
@@ -2210,19 +2210,19 @@
       <node ref="U7" pin="1" pinfunction="SDA" pintype="bidirectional"/>
     </net>
     <net code="28" name="/interface/SOCKET_MISO">
-      <node ref="J1" pin="17" pintype="input"/>
+      <node ref="J1" pin="18" pintype="input"/>
       <node ref="U12" pin="2" pinfunction="1A" pintype="bidirectional"/>
     </net>
     <net code="29" name="/interface/SOCKET_MOSI">
-      <node ref="J1" pin="15" pintype="input"/>
+      <node ref="J1" pin="16" pintype="input"/>
       <node ref="U14" pin="3" pinfunction="2A" pintype="bidirectional"/>
     </net>
     <net code="30" name="/interface/SOCKET_SCLK">
-      <node ref="J1" pin="19" pintype="input"/>
+      <node ref="J1" pin="20" pintype="input"/>
       <node ref="U12" pin="3" pinfunction="2A" pintype="bidirectional"/>
     </net>
     <net code="31" name="/interface/TX">
-      <node ref="J1" pin="13" pintype="input"/>
+      <node ref="J1" pin="14" pintype="input"/>
     </net>
     <net code="32" name="GND">
       <node ref="C11" pin="2" pintype="passive"/>
@@ -2423,8 +2423,8 @@
       <node ref="U7" pin="2" pinfunction="ADDR" pintype="input"/>
       <node ref="U7" pin="5" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="54" name="unconnected-(J1-Pad9)">
-      <node ref="J1" pin="9" pintype="input+no_connect"/>
+    <net code="54" name="unconnected-(J1-Pad10)">
+      <node ref="J1" pin="10" pintype="input+no_connect"/>
     </net>
     <net code="55" name="unconnected-(U5-~{Q}-Pad3)">
       <node ref="U5" pin="3" pinfunction="~{Q}" pintype="output+no_connect"/>

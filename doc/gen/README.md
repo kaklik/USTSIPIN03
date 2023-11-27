@@ -64,8 +64,8 @@ Eurocircuits class: 4B
 
 Components count: (SMD/THT)
 
-- Top: 0/7 (THT)
-- Bottom: 91/0 (SMD)
+- Top: 0/6 (THT)
+- Bottom: 91/1 (SMD + THT)
 
 Defined tracks:
 
