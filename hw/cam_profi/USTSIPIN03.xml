@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Mon Nov 27 19:26:04 2023</date>
+    <date>Mon Nov 27 20:28:06 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1466,6 +1466,66 @@
       <sheetpath names="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/"/>
       <tstamps>d2376bce-b598-4fc2-8076-9fc0be0bca0c</tstamps>
     </comp>
+    <comp ref="C49">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/"/>
+      <tstamps>c2dc581a-d17f-4078-a150-3958d241bae3</tstamps>
+    </comp>
+    <comp ref="C50">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/"/>
+      <tstamps>69292bf4-dda9-475a-bc78-2057f36c66cb</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/"/>
+      <tstamps>5bf53984-b648-49f1-8c15-159a7f390647</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/"/>
+      <tstamps>7049155b-d796-4e34-aa8c-a15eec7561c0</tstamps>
+    </comp>
     <comp ref="J1">
       <value>HEADER_2x15</value>
       <footprint>Mlab_Pin_Headers:Straight_2x15</footprint>
@@ -1586,6 +1646,22 @@
       <property name="ki_keywords" value="Level-Shifter CMOS-TTL-Translation"/>
       <sheetpath names="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/"/>
       <tstamps>ced42a70-588b-44c9-a10d-f650afb8f050</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>MIC5504-3.3YM5-TR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5c7255e81287500b4e112ea2</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="MIC5504-3.3YM5" description="300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"/>
+      <property name="UST_ID" value="5c7255e81287500b4e112ea2"/>
+      <property name="Sheetname" value="interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <property name="ki_description" value="300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"/>
+      <property name="ki_keywords" value="Micrel LDO voltage regulator"/>
+      <sheetpath names="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/"/>
+      <tstamps>f508e6ac-33aa-476b-a284-9c9d3facc0df</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1980,6 +2056,26 @@
         <pin num="3" name="GND" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="Regulator_Linear" part="MIC5504-3.3YM5">
+      <description>300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5504-3.3YM5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
     <libpart lib="Sensor_Humidity" part="SHT31-DIS">
       <description>I²C humidity and temperature sensor, ±2%RH, ±0.2°C, DFN-8</description>
       <docs>https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf</docs>
@@ -2030,12 +2126,28 @@
     <library logical="Reference_Voltage">
       <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
     </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
     <library logical="Sensor_Humidity">
       <uri>/usr/share/kicad/symbols//Sensor_Humidity.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+5V">
+    <net code="1" name="+3.3V">
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U12" pin="5" pinfunction="DIR" pintype="input"/>
+      <node ref="U13" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U13" pin="5" pinfunction="DIR" pintype="input"/>
+      <node ref="U14" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U15" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C12" pin="1" pintype="passive"/>
@@ -2052,7 +2164,7 @@
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="V_{CC}" pintype="power_in"/>
     </net>
-    <net code="2" name="+5VD">
+    <net code="3" name="+5VD">
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C37" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="C38" pin="1" pintype="passive"/>
@@ -2060,27 +2172,31 @@
       <node ref="C43" pin="1" pintype="passive"/>
       <node ref="C45" pin="1" pintype="passive"/>
       <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="C50" pin="1" pintype="passive"/>
       <node ref="J1" pin="3" pintype="input"/>
       <node ref="J1" pin="4" pintype="input"/>
       <node ref="U12" pin="8" pinfunction="VCCB" pintype="power_in"/>
       <node ref="U13" pin="8" pinfunction="VCCB" pintype="power_in"/>
       <node ref="U14" pin="8" pinfunction="VCCB" pintype="power_in"/>
+      <node ref="U15" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U15" pin="3" pinfunction="EN" pintype="input"/>
       <node ref="U5" pin="2" pinfunction="D" pintype="input"/>
       <node ref="U5" pin="8" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="3" name="/PIN_detector/A">
+    <net code="4" name="/PIN_detector/A">
       <node ref="C25" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="U8" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="4" name="/PIN_detector/K">
+    <net code="5" name="/PIN_detector/K">
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="5" name="/PIN_detector/REF">
+    <net code="6" name="/PIN_detector/REF">
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="C29" pin="2" pintype="passive"/>
       <node ref="C32" pin="1" pintype="passive"/>
@@ -2092,46 +2208,46 @@
       <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
       <node ref="U8" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="6" name="/PIN_detector/Signal">
+    <net code="7" name="/PIN_detector/Signal">
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="7" name="/analogue_backend/4.1 V">
+    <net code="8" name="/analogue_backend/4.1 V">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="Vout" pintype="power_out"/>
       <node ref="U3" pin="10" pinfunction="V_{REF}" pintype="input"/>
     </net>
-    <net code="8" name="/analogue_backend/A{slash}D">
+    <net code="9" name="/analogue_backend/A{slash}D">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="CH0" pintype="input"/>
     </net>
-    <net code="9" name="/analogue_backend/CONV">
+    <net code="10" name="/analogue_backend/CONV">
       <node ref="U14" pin="7" pinfunction="1B" pintype="bidirectional"/>
       <node ref="U3" pin="1" pinfunction="CONV" pintype="input"/>
       <node ref="U5" pin="5" pinfunction="Q" pintype="output"/>
     </net>
-    <net code="10" name="/analogue_backend/Reset">
+    <net code="11" name="/analogue_backend/Reset">
       <node ref="U13" pin="6" pinfunction="2B" pintype="bidirectional"/>
       <node ref="U5" pin="6" pinfunction="~{CLR}" pintype="input"/>
     </net>
-    <net code="11" name="/analogue_backend/SCK">
+    <net code="12" name="/analogue_backend/SCK">
       <node ref="U12" pin="6" pinfunction="2B" pintype="bidirectional"/>
       <node ref="U3" pin="8" pinfunction="SCK" pintype="input"/>
     </net>
-    <net code="12" name="/analogue_backend/SDI">
+    <net code="13" name="/analogue_backend/SDI">
       <node ref="U12" pin="7" pinfunction="1B" pintype="bidirectional"/>
       <node ref="U3" pin="6" pinfunction="SDI" pintype="input"/>
     </net>
-    <net code="13" name="/analogue_backend/SDO">
+    <net code="14" name="/analogue_backend/SDO">
       <node ref="U14" pin="6" pinfunction="2B" pintype="bidirectional"/>
       <node ref="U3" pin="7" pinfunction="SDO" pintype="output"/>
     </net>
-    <net code="14" name="/analogue_backend/Set">
+    <net code="15" name="/analogue_backend/Set">
       <node ref="U13" pin="7" pinfunction="1B" pintype="bidirectional"/>
       <node ref="U5" pin="7" pinfunction="~{PRE}" pintype="input"/>
     </net>
-    <net code="15" name="/analogue_backend/VCC2">
+    <net code="16" name="/analogue_backend/VCC2">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
@@ -2139,84 +2255,76 @@
       <node ref="U1" pin="1" pinfunction="Vin" pintype="power_in"/>
       <node ref="U2" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="16" name="/analogue_backend/VCC3">
+    <net code="17" name="/analogue_backend/VCC3">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U6" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="17" name="/analogue_backend/VCC5">
+    <net code="18" name="/analogue_backend/VCC5">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="18" name="/interface/3v3">
-      <node ref="C42" pin="1" pintype="passive"/>
-      <node ref="C44" pin="1" pintype="passive"/>
-      <node ref="C46" pin="1" pintype="passive"/>
+    <net code="19" name="/interface/3v3">
       <node ref="J1" pin="5" pintype="input"/>
       <node ref="J1" pin="6" pintype="input"/>
-      <node ref="U12" pin="1" pinfunction="VCCA" pintype="power_in"/>
-      <node ref="U12" pin="5" pinfunction="DIR" pintype="input"/>
-      <node ref="U13" pin="1" pinfunction="VCCA" pintype="power_in"/>
-      <node ref="U13" pin="5" pinfunction="DIR" pintype="input"/>
-      <node ref="U14" pin="1" pinfunction="VCCA" pintype="power_in"/>
     </net>
-    <net code="19" name="/interface/A0">
+    <net code="20" name="/interface/A0">
       <node ref="J1" pin="9" pintype="input"/>
     </net>
-    <net code="20" name="/interface/A1">
+    <net code="21" name="/interface/A1">
       <node ref="J1" pin="11" pintype="input"/>
     </net>
-    <net code="21" name="/interface/B0">
+    <net code="22" name="/interface/B0">
       <node ref="J1" pin="15" pintype="input"/>
       <node ref="U14" pin="2" pinfunction="1A" pintype="bidirectional"/>
     </net>
-    <net code="22" name="/interface/B1">
+    <net code="23" name="/interface/B1">
       <node ref="J1" pin="13" pintype="input"/>
     </net>
-    <net code="23" name="/interface/C0">
+    <net code="24" name="/interface/C0">
       <node ref="J1" pin="19" pintype="input"/>
       <node ref="U13" pin="3" pinfunction="2A" pintype="bidirectional"/>
     </net>
-    <net code="24" name="/interface/C1">
+    <net code="25" name="/interface/C1">
       <node ref="J1" pin="17" pintype="input"/>
       <node ref="U13" pin="2" pinfunction="1A" pintype="bidirectional"/>
     </net>
-    <net code="25" name="/interface/RX">
+    <net code="26" name="/interface/RX">
       <node ref="J1" pin="12" pintype="input"/>
     </net>
-    <net code="26" name="/interface/SCL">
+    <net code="27" name="/interface/SCL">
       <node ref="J1" pin="23" pintype="input"/>
       <node ref="J1" pin="24" pintype="input"/>
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="U11" pin="6" pinfunction="SCL" pintype="input"/>
       <node ref="U7" pin="4" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="27" name="/interface/SDA">
+    <net code="28" name="/interface/SDA">
       <node ref="J1" pin="27" pintype="input"/>
       <node ref="J1" pin="28" pintype="input"/>
       <node ref="R29" pin="2" pintype="passive"/>
       <node ref="U11" pin="5" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="U7" pin="1" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="28" name="/interface/SOCKET_MISO">
+    <net code="29" name="/interface/SOCKET_MISO">
       <node ref="J1" pin="18" pintype="input"/>
       <node ref="U14" pin="3" pinfunction="2A" pintype="bidirectional"/>
     </net>
-    <net code="29" name="/interface/SOCKET_MOSI">
+    <net code="30" name="/interface/SOCKET_MOSI">
       <node ref="J1" pin="16" pintype="input"/>
       <node ref="U12" pin="2" pinfunction="1A" pintype="bidirectional"/>
     </net>
-    <net code="30" name="/interface/SOCKET_SCLK">
+    <net code="31" name="/interface/SOCKET_SCLK">
       <node ref="J1" pin="20" pintype="input"/>
       <node ref="U12" pin="3" pinfunction="2A" pintype="bidirectional"/>
     </net>
-    <net code="31" name="/interface/TX">
+    <net code="32" name="/interface/TX">
       <node ref="J1" pin="14" pintype="input"/>
     </net>
-    <net code="32" name="GND">
+    <net code="33" name="GND">
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
@@ -2232,6 +2340,10 @@
       <node ref="C45" pin="2" pintype="passive"/>
       <node ref="C46" pin="2" pintype="passive"/>
       <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="C49" pin="2" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
       <node ref="J1" pin="1" pintype="input"/>
       <node ref="J1" pin="2" pintype="input"/>
       <node ref="J1" pin="21" pintype="input"/>
@@ -2252,13 +2364,14 @@
       <node ref="U13" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U14" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U14" pin="5" pinfunction="DIR" pintype="input"/>
+      <node ref="U15" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="5" pinfunction="DGND" pintype="power_in"/>
       <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U7" pin="7" pinfunction="R" pintype="passive"/>
       <node ref="U7" pin="8" pinfunction="VSS" pintype="power_in"/>
       <node ref="U7" pin="9" pinfunction="VSS" pintype="passive"/>
     </net>
-    <net code="33" name="GNDA">
+    <net code="34" name="GNDA">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
@@ -2297,76 +2410,76 @@
       <node ref="U8" pin="2" pinfunction="V-" pintype="power_in"/>
       <node ref="U9" pin="2" pinfunction="V-" pintype="power_in"/>
     </net>
-    <net code="34" name="Net-(C25-Pad1)">
+    <net code="35" name="Net-(C25-Pad1)">
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="C30" pin="2" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U8" pin="1" pintype="output"/>
     </net>
-    <net code="35" name="Net-(C26-Pad1)">
+    <net code="36" name="Net-(C26-Pad1)">
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(C27-Pad1)">
+    <net code="37" name="Net-(C27-Pad1)">
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(C29-Pad1)">
+    <net code="38" name="Net-(C29-Pad1)">
       <node ref="C29" pin="1" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
     </net>
-    <net code="38" name="Net-(C31-Pad2)">
+    <net code="39" name="Net-(C31-Pad2)">
       <node ref="C31" pin="2" pintype="passive"/>
       <node ref="C35" pin="1" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="U9" pin="1" pintype="output"/>
     </net>
-    <net code="39" name="Net-(C37-Pad1)">
+    <net code="40" name="Net-(C37-Pad1)">
       <node ref="C37" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(J1-Pad7)">
+    <net code="41" name="Net-(J1-Pad7)">
       <node ref="J1" pin="7" pintype="input"/>
       <node ref="J1" pin="8" pintype="input"/>
     </net>
-    <net code="41" name="Net-(Q1-D)">
+    <net code="42" name="Net-(Q1-D)">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="42" name="Net-(Q1-S)">
+    <net code="43" name="Net-(Q1-S)">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="43" name="Net-(U2-+)">
+    <net code="44" name="Net-(U2-+)">
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="44" name="Net-(U2--)">
+    <net code="45" name="Net-(U2--)">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="1" pintype="output"/>
       <node ref="U2" pin="4" pinfunction="-" pintype="input"/>
       <node ref="U6" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="45" name="Net-(U4--)">
+    <net code="46" name="Net-(U4--)">
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="46" name="Net-(U5-C)">
+    <net code="47" name="Net-(U5-C)">
       <node ref="U5" pin="1" pinfunction="C" pintype="input"/>
       <node ref="U6" pin="1" pintype="output"/>
     </net>
-    <net code="47" name="Net-(U6--)">
+    <net code="48" name="Net-(U6--)">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
@@ -2374,35 +2487,35 @@
       <node ref="U4" pin="1" pintype="output"/>
       <node ref="U6" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="48" name="Net-(U8-V+)">
+    <net code="49" name="Net-(U8-V+)">
       <node ref="C33" pin="1" pintype="passive"/>
       <node ref="C34" pin="1" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="49" name="Net-(U9-+)">
+    <net code="50" name="Net-(U9-+)">
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="U9" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="50" name="Net-(U9--)">
+    <net code="51" name="Net-(U9--)">
       <node ref="C35" pin="2" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="U9" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="51" name="Net-(U9-V+)">
+    <net code="52" name="Net-(U9-V+)">
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U9" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="52" name="Net-(U10-Vin)">
+    <net code="53" name="Net-(U10-Vin)">
       <node ref="C36" pin="1" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="U10" pin="1" pinfunction="Vin" pintype="power_in"/>
     </net>
-    <net code="53" name="VDD">
+    <net code="54" name="VDD">
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="C40" pin="1" pintype="passive"/>
       <node ref="C41" pin="1" pintype="passive"/>
@@ -2415,17 +2528,20 @@
       <node ref="U7" pin="2" pinfunction="ADDR" pintype="input"/>
       <node ref="U7" pin="5" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="54" name="unconnected-(J1-Pad10)">
+    <net code="55" name="unconnected-(J1-Pad10)">
       <node ref="J1" pin="10" pintype="input+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U5-~{Q}-Pad3)">
+    <net code="56" name="unconnected-(U5-~{Q}-Pad3)">
       <node ref="U5" pin="3" pinfunction="~{Q}" pintype="output+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U7-ALERT-Pad3)">
+    <net code="57" name="unconnected-(U7-ALERT-Pad3)">
       <node ref="U7" pin="3" pinfunction="ALERT" pintype="output+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(U7-~{RESET}-Pad6)">
+    <net code="58" name="unconnected-(U7-~{RESET}-Pad6)">
       <node ref="U7" pin="6" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U15-NC-Pad4)">
+      <node ref="U15" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
 </export>

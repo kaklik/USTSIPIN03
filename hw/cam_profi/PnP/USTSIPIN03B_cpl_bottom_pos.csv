@@ -47,9 +47,13 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C46","100nF","C_0805_2012Metric",11.4808,22.4790,0.0000,bottom
 "C47","100nF","C_0805_2012Metric",15.5194,23.0378,-90.0000,bottom
 "C48","1nF","C_0805_2012Metric",29.8704,24.2824,-90.0000,bottom
+"C49","10uF","C_0805_2012Metric",20.1306,52.5490,90.0000,bottom
+"C50","100nF","C_0805_2012Metric",27.9284,48.2056,0.0000,bottom
+"C51","10uF","C_0805_2012Metric",15.9396,48.8914,-90.0000,bottom
+"C52","100nF","C_0805_2012Metric",17.1080,51.8124,0.0000,bottom
 "FID1","Fiducial","Fiducial_1mm_Mask2mm",73.1012,44.6532,180.0000,bottom
 "FID2","Fiducial","Fiducial_1mm_Mask2mm",15.7110,7.6672,180.0000,bottom
-"FID3","Fiducial","Fiducial_1mm_Mask2mm",16.6370,52.4510,-90.0000,bottom
+"FID3","Fiducial","Fiducial_1mm_Mask2mm",14.5172,53.8190,-90.0000,bottom
 "FID4","Fiducial","Fiducial_1mm_Mask2mm",73.0896,16.0746,-90.0000,bottom
 "L1","NL03KT330","L_0603_1608Metric_Pad1.05x0.95mm_HandSolder",21.3106,37.6028,180.0000,bottom
 "M5","RFShield_TwoPieces","Laird_Technologies_BMI-S-210-F_44.00x30.50mm",40.6400,25.7664,0.0000,bottom
@@ -90,3 +94,4 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "U12","SN74LVC2T45DCU","VSSOP-8_2.3x2mm_P0.5mm",12.5476,30.9626,0.0000,bottom
 "U13","SN74LVC2T45DCU","VSSOP-8_2.3x2mm_P0.5mm",37.1856,46.1264,180.0000,bottom
 "U14","SN74LVC2T45DCU","VSSOP-8_2.3x2mm_P0.5mm",12.0396,25.0190,0.0000,bottom
+"U15","MIC5504-3.3YM5-TR","SOT-23-5",19.1146,48.9168,180.0000,bottom
