@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Mon Nov 27 20:28:06 2023</date>
+    <date>Mon Nov 27 21:19:52 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -658,7 +658,7 @@
     </comp>
     <comp ref="U2">
       <value>AD8691</value>
-      <footprint>Package_TO_SOT_SMD:TSOT-23-5_HandSoldering</footprint>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5</footprint>
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8691_8692_8694.pdf</datasheet>
       <fields>
         <field name="UST_ID">5d47c084128750448e6b4671</field>
@@ -690,7 +690,7 @@
     </comp>
     <comp ref="U4">
       <value>AD8691</value>
-      <footprint>Package_TO_SOT_SMD:TSOT-23-5_HandSoldering</footprint>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5</footprint>
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8691_8692_8694.pdf</datasheet>
       <fields>
         <field name="UST_ID">5d47c084128750448e6b4671</field>
@@ -722,7 +722,7 @@
     </comp>
     <comp ref="U6">
       <value>TS3021ILT</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/ts3021.pdf</datasheet>
       <fields>
         <field name="UST_ID">5d47bfd4128750448e6b465e</field>
@@ -1269,7 +1269,7 @@
     </comp>
     <comp ref="U9">
       <value>AD8691</value>
-      <footprint>Package_TO_SOT_SMD:TSOT-23-5_HandSoldering</footprint>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5</footprint>
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8691_8692_8694.pdf</datasheet>
       <fields>
         <field name="UST_ID">5d47c084128750448e6b4671</field>
