@@ -3627,10 +3627,10 @@
     )
   )
 
-  (symbol (lib_id "MLAB_HEADER:HEADER_2x15") (at 246.38 68.58 90) (unit 1)
+  (symbol (lib_id "MLAB_HEADER:HEADER_2x15") (at 246.38 68.58 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4bd9348-b170-42a5-ab09-f2e4e87f6147)
-    (property "Reference" "J6" (at 226.06 67.31 90)
+    (property "Reference" "J6" (at 226.06 69.85 90)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "HEADER_2x15" (at 252.73 53.34 90)
