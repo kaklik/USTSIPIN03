@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Tue Dec  5 21:02:24 2023</date>
+    <date>Tue Dec  5 21:47:29 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -381,13 +381,13 @@
       <tstamps>b762b913-a8f9-47e9-a8d5-1e2c3969c1bf</tstamps>
     </comp>
     <comp ref="C15">
-      <value>2n2</value>
+      <value>3n3</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b46</field>
+        <field name="UST_ID">651abc26462c6d9e720551fa</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b46"/>
+      <property name="UST_ID" value="651abc26462c6d9e720551fa"/>
       <property name="Sheetname" value="analogue_backend"/>
       <property name="Sheetfile" value="analogue_backend.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1334,10 +1334,10 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1349,11 +1349,10 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_id" value=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="interface"/>
       <property name="Sheetfile" value="interface.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
