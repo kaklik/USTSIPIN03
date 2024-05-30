@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "USTSIPIN03A")
-    (date "2023-11-13")
-    (company "Jakub Kákona <info@ust.cz>")
+    (title "USTSIPIN03B")
+    (date "2024-05-30")
+    (company "kaklik <info@ust.cz>")
     (comment 2 "Semiconductor\\nionizing radiation detector")
     (comment 4 "GPL 3")
   )
@@ -269,9 +269,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "M1") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
-          (reference "M2") (unit 1)
-        )
       )
     )
   )
@@ -301,9 +298,6 @@
         )
       )
       (project "USTSIPIN03"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e191f86f-5b54-4b8b-aca6-37b81226f3b6"
-          (reference "FID4") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID4") (unit 1)
         )
@@ -336,9 +330,6 @@
         )
       )
       (project "USTSIPIN03"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e191f86f-5b54-4b8b-aca6-37b81226f3b6"
-          (reference "FID3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID3") (unit 1)
         )
@@ -367,9 +358,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR01") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -394,9 +382,6 @@
       (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "M2") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
-          (reference "M3") (unit 1)
         )
       )
     )
@@ -423,9 +408,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "M3") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
-          (reference "M4") (unit 1)
-        )
       )
     )
   )
@@ -451,9 +433,6 @@
     (instances
       (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FID1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
           (reference "FID1") (unit 1)
         )
       )
@@ -483,9 +462,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID2") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
-          (reference "FID2") (unit 1)
-        )
       )
     )
   )
@@ -510,9 +486,6 @@
       (project "USTSIPIN03"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "M4") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5c006114-f78d-4936-a365-c4e7307459e1"
-          (reference "M5") (unit 1)
         )
       )
     )
