@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTSIPIN03.kicad_sch</source>
-    <date>Tue Dec  5 21:47:29 2023</date>
-    <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
+    <date>Thu May 30 15:57:13 2024</date>
+    <tool>Eeschema 7.0.11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>USTSIPIN03A</title>
-        <company>Jakub Kákona &lt;info@ust.cz&gt;</company>
+        <title>USTSIPIN03B</title>
+        <company>kaklik &lt;info@ust.cz&gt;</company>
         <rev/>
-        <date>2023-11-13</date>
+        <date>2024-05-30</date>
         <source>USTSIPIN03.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value="Semiconductor\nionizing radiation detector"/>
@@ -24,8 +24,8 @@
     </sheet>
     <sheet number="2" name="/analogue_backend/" tstamps="/5c006114-f78d-4936-a365-c4e7307459e1/">
       <title_block>
-        <title>USTSIPIN03A</title>
-        <company>Jakub Kákona &lt;info@ust.cz&gt;</company>
+        <title>USTSIPIN03B</title>
+        <company>kaklik &lt;info@ust.cz&gt;</company>
         <rev/>
         <date>2023-10-23</date>
         <source>analogue_backend.kicad_sch</source>
@@ -42,8 +42,8 @@
     </sheet>
     <sheet number="3" name="/PIN_detector/" tstamps="/e191f86f-5b54-4b8b-aca6-37b81226f3b6/">
       <title_block>
-        <title>USTSIPIN03A</title>
-        <company>Jakub Kákona &lt;info@ust.cz&gt;</company>
+        <title>USTSIPIN03B</title>
+        <company>kaklik &lt;info@ust.cz&gt;</company>
         <rev/>
         <date>2023-10-23</date>
         <source>PIN_detector.kicad_sch</source>
@@ -60,8 +60,8 @@
     </sheet>
     <sheet number="4" name="/interface/" tstamps="/0c2aa1a0-2cd5-4b79-93d8-46f8a648ea33/">
       <title_block>
-        <title>USTSIPIN03A</title>
-        <company>Jakub Kákona &lt;info@ust.cz&gt;</company>
+        <title>USTSIPIN03B</title>
+        <company>kaklik &lt;info@ust.cz&gt;</company>
         <rev/>
         <date>2023-10-23</date>
         <source>interface.kicad_sch</source>
